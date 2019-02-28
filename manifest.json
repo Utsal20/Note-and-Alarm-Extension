@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "Notes",
+	"description": "The extension will sync notes by (and with) each user who has it installed.",
+	"version": "1.0",
+	"permissions": [ "storage", "alarms" ],
+	"browser_action": {
+ 		"default_icon": "image.png",
+ 		"default_popup": "popup.html",
+ 		"default_title": "Notes"
+ 	}
+}
